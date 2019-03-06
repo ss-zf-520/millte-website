@@ -1,0 +1,33 @@
+
+#cart-all{visibility: inherit;display: block;padding: 26px 10px 38px;color: #333;}
+#site-cartAll{display: none;}
+#cartList{background:#fff;border: 1px solid red;}
+#cartList .colList .title,#cartList .colList .title i{color: #333;}
+.cartLists{background:#f5f5f5;padding-top: 90px;}
+
+.showCart{width: 1226px;margin-left: auto;margin-right: auto;height:1800px;}
+.showCart ul li:nth-child(1),
+.showCart ul li:nth-child(6),
+.showCart ul li:nth-child(11),
+.showCart ul li:nth-child(16),
+.showCart ul li:nth-child(21){margin-left:0;}
+
+.recommend-list{margin-bottom: 14px;width: 234px;height: 340px;background-color: #fff;text-align: center;position: relative;float: left;margin-left: 14px;min-height: 1px;}
+.recommend-list dl{padding: 0 20px;margin-bottom: 0;}
+.recommend-list dl dt{padding: 40px 0 15px;height: 145px;}
+.recommend-list dl dt img{width:140px ;height:140px;}
+.recommend-list dl .info,.recommend-list dl .name{margin-bottom: 10px;height: 18px;
+text-overflow: ellipsis;white-space: nowrap;overflow: hidden;}
+.recommend-list dl .name{}
+.recommend-list dl .price{margin-bottom: 10px;
+    color: #ff6700;}
+.addCart{position: absolute;cursor: pointer;
+    left: 60px;
+    bottom:15px;border:1px solid #ff6700;
+    background: #fff;
+    color: #ff6700;
+        width: 118px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;}
+.search-btn{cursor: pointer;}
